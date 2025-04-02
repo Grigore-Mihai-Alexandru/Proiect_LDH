@@ -1,0 +1,25 @@
+# Ignore all generated and compiled files recursively
+**/*.bak
+**/*.qpf
+**/*.qsf
+**/*.qws
+**/*.qdf
+**/*.wlf
+**/*.opt
+**/db/
+**/incremental_db/
+**/output_files/
+**/work/
+**/simulation/
+**/modelsim_*/
+
+# Ignore PDFs except in docs/
+*.pdf
+!docs/*.pdf
+
+# Ignore everything inside "notgood" folders
+**/*notgood*/
+
+# Ignore hidden system files
+.DS_Store
+Thumbs.db
